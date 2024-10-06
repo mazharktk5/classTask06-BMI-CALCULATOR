@@ -26,3 +26,13 @@ button{
     cursor: pointer;
     width: 40%;
 }
+
+input{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(145, 188, 202);
+    color: black;
+}

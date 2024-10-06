@@ -9,9 +9,14 @@ function calculateBMI(){
     
     
     var bmi = weight / (height * height)
-    // document.getElementById("bmi").innerHTML = "Your BMI is: " + bmi.toFixed(2)
+//    check if the inputs are empty
+    if (isNaN(weight) || isNaN(height)) {
+        alert("Please enter valid numbers.")
+        return;
+    }
+
     
-// check if the weight and height is entered in negative or left empty then show alert.
+
 if (weight <= 0 || height <= 0) {
     alert("Please enter valid weight and height.")
     return;
@@ -26,11 +31,16 @@ if (weight <= 0 || height <= 0) {
         document.getElementById("bmi-result").innerHTML = "Normal weight"
     } else if(bmi >= 25 && bmi <= 29.9){
         document.getElementById("bmi-result").innerHTML = "Overweight"
-    } else {
+    } else if( bmi >= 30){
         document.getElementById("bmi-result").innerHTML = "Obese"
+        
+    }
+    else{
+        document.getElementById("bmi-result").innerHTML = "Invalid BMI"
+        
     }
 
-    weight.value = " "
-    height.value = " "
+    
+
     
     }
