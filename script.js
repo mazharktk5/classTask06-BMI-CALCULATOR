@@ -3,7 +3,7 @@ var button = document.getElementById("btn")
 
 function calculateBMI(){
     
-    var weight = parseFloat(document.getElementById("weight").value + "kg")
+    var weight = parseFloat(document.getElementById("weight").value)
     var height = parseFloat(document.getElementById("height").value)
 
     
@@ -30,19 +30,19 @@ if (weight <= 0 || height <= 0) {
 
     // agr bmi 18.5 se km ho then "bmi-result ka innerhtml 'underweight set karo"
      if(bmi < 18.5){
-        document.getElementById("bmi-result").innerHTML = "Underweight"
+        document.getElementById("bmi-result").innerHTML = " Catogary : Underweight"
 
         // agr bmi 18.5 se zyada ho ya 24.9 se km ho then "bmi-result ka innerhtml 'Normal' set karo"
     } else if(bmi >= 18.5 && bmi <= 24.9){
-        document.getElementById("bmi-result").innerHTML = "Normal weight"
+        document.getElementById("bmi-result").innerHTML = "Normal Catogary : weight"
 
         // agr bmi 25 se zyada ho ya 29.9 se km ho then "bmi-result ka innerhtml 'overwieght' set karo"
     } else if(bmi >= 25 && bmi <= 29.9){
-        document.getElementById("bmi-result").innerHTML = "Overweight"
+        document.getElementById("bmi-result").innerHTML = "Catogary : Overweight"
 
          // agr bmi 30 se zyada ho then "bmi-result ka innerhtml 'obese' set karo"
     } else if( bmi >= 30){
-        document.getElementById("bmi-result").innerHTML = "Obese"
+        document.getElementById("bmi-result").innerHTML = "Catogary : Obese"
         
     }
     // else if bmi is not in range then "bmi-result ka innerhtml 'Invalid BMI' set karo"

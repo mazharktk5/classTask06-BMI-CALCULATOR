@@ -37,3 +37,19 @@ input{
     background-color: rgb(145, 188, 202);
     color: black;
 }
+
+#bmi{
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+
+
+}
+
+#bmi-result{
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
