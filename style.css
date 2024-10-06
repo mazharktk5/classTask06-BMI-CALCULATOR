@@ -16,3 +16,13 @@ body{
     flex-direction: column;
     text-align: center;
 }
+
+button{
+    padding: 10px 20px;
+    background-color:rgb(66, 147, 182);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40%;
+}
