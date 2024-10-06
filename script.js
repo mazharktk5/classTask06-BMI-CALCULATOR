@@ -34,7 +34,7 @@ if (weight <= 0 || height <= 0) {
 
         // agr bmi 18.5 se zyada ho ya 24.9 se km ho then "bmi-result ka innerhtml 'Normal' set karo"
     } else if(bmi >= 18.5 && bmi <= 24.9){
-        document.getElementById("bmi-result").innerHTML = "Normal Catogary : weight"
+        document.getElementById("bmi-result").innerHTML = " Catogary :  Normal weight"
 
         // agr bmi 25 se zyada ho ya 29.9 se km ho then "bmi-result ka innerhtml 'overwieght' set karo"
     } else if(bmi >= 25 && bmi <= 29.9){
