@@ -40,7 +40,7 @@ if (weight <= 0 || height <= 0) {
     } else if(bmi >= 25 && bmi <= 29.9){
         document.getElementById("bmi-result").innerHTML = "Catogary : Overweight"
 
-         // agr bmi 30 se zyada ho then "bmi-result ka innerhtml 'obese' set karo"
+        
     } else if( bmi >= 30){
         document.getElementById("bmi-result").innerHTML = "Catogary : Obese"
         
