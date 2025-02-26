@@ -28,7 +28,7 @@ if (weight <= 0 || height <= 0) {
 
     // if not then check for bmi
 
-    // agr bmi 18.5 se km ho then "bmi-result ka innerhtml 'underweight set karo"
+   
      if(bmi < 18.5){
         document.getElementById("bmi-result").innerHTML = " Catogary : Underweight"
 
