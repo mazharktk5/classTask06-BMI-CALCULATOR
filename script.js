@@ -26,7 +26,7 @@ if (weight <= 0 || height <= 0) {
         document.getElementById("bmi").innerHTML = "Your BMI is: " + bmi.toFixed(2)
     }
 
-    // if not then check for bmi
+   
 
    
      if(bmi < 18.5){
