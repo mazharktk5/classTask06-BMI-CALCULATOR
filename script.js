@@ -45,7 +45,7 @@ if (weight <= 0 || height <= 0) {
         document.getElementById("bmi-result").innerHTML = "Catogary : Obese"
         
     }
-    // else if bmi is not in range then "bmi-result ka innerhtml 'Invalid BMI' set karo"
+   
     else{
         document.getElementById("bmi-result").innerHTML = "Invalid BMI"
         
