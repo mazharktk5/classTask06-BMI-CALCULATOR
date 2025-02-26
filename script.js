@@ -32,7 +32,7 @@ if (weight <= 0 || height <= 0) {
      if(bmi < 18.5){
         document.getElementById("bmi-result").innerHTML = " Catogary : Underweight"
 
-        // agr bmi 18.5 se zyada ho ya 24.9 se km ho then "bmi-result ka innerhtml 'Normal' set karo"
+       
     } else if(bmi >= 18.5 && bmi <= 24.9){
         document.getElementById("bmi-result").innerHTML = " Catogary :  Normal weight"
 
